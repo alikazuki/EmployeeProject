@@ -1,0 +1,20 @@
+.cardHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.card {
+    list-style: none;
+    flex: 0 0 50% !important;
+    margin: 10px !important;
+}
+
+.card:hover {
+    border: 1px solid #1890ff;
+    cursor: pointer;
+    transition: 1s;
+}
